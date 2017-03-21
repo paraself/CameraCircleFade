@@ -3,7 +3,7 @@ A simple circular wipe / fade in / fade out transition effect for Unity3D.
 
 一个非常简单的圆形遮罩转场特效，使用Unity3D的后期特效Shader编写。
 
-![screenshot](https://github.com/paraself/CameraCircleFade/blob/master/Example/result.png)
+![screenshot](https://github.com/paraself/CameraCircleFade/blob/master/Example/circle2.gif)
 
 Usage / 用法：
 
