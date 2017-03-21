@@ -14,7 +14,7 @@ Usage / 用法：
 // 在任意的脚本里调用任何一个相机的实例方法.FadeIn就可以把场景由全黑变成清楚的啦。
 public class MyTest : Monobehaviour {
   void Start () {
-    Camera.main.FadeIn(5s);
+    Camera.main.FadeIn(5f);
   }
 }
 ```
@@ -24,12 +24,12 @@ or you can do these / 或者也可以这么用：
 ```c#
 // support many easing interpolation
 // 支持十几种不同的平滑插值方式
-Camera.main.FadeIn(10s, Easing.Type.CubicInOut);
+Camera.main.FadeIn(10f, Easing.Type.CubicInOut);
 ```
 
 ```c#
 // fade out as well
-Camera.main.FadeOut(5s);
+Camera.main.FadeOut(5f);
 ```
 
 Anyway it's just a member function for any camera, very simple!
